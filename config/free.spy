@@ -238,6 +238,7 @@ js_config:
   Env: jd_lzkj_loreal_followGoods_url
   KeyWord:
   - - jd_lzkj_loreal_followGoods_url
+  - - jd_lz_followGoods
   Name: 关注商品有礼（lzkj_loreal）
   Script: jd_lzkj_loreal_followGoods.js
   TimeOut: 0
