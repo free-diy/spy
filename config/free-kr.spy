@@ -135,6 +135,7 @@ js_config:
   Env: jd_pointExgBeans_activityUrl
   KeyWord:
   - - jd_pointExgBeans_activityUrl
+  - - jd_wx_pointExgBeans_id
   Name: 积分兑换京豆（超级会员）
   Script: jd_pointExgBeans.js
   TimeOut: 0
@@ -571,6 +572,8 @@ js_config:
   Env: jd_drawCenter_activityId
   KeyWord:
   - - jd_drawCenter_activityId
+  - - jd_wx_drawCenter_id
+  - - jd_wx_drawCenter
   Name: 店铺抽奖中心（超级无线）
   Script: jd_drawCenter.js
   TimeOut: 0
