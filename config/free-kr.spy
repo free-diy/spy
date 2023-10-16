@@ -54,6 +54,7 @@ js_config:
   Env: jd_shopSign_activityUrl
   KeyWord:
   - - jd_shopSign_activityUrl
+  - - jd_wx_sign_id
   Name: 无线店铺签到（超级无线/超级会员）
   Script: jd_shopSign.js
   TimeOut: 0
@@ -64,6 +65,8 @@ js_config:
   Env: jd_wxTeam_activityUrl
   KeyWord:
   - - jd_wxTeam_activityUrl
+  - - jd_wx_team_id
+  - - jd_wx_team
   Name: 组队瓜分奖品（超级无线/超级会员
   Script: jd_wxTeam.js
   TimeOut: 0
@@ -114,7 +117,8 @@ js_config:
   Env: LUCK_DRAW_URL
   KeyWord:
   - - LUCK_DRAW_URL
-  - - M_WX_LUCK_DRAW_URL
+  - - jd_wx_draw_id
+  - - jd_wx_draw
   Name: 店铺抽奖通用活动-加密
   Script: jd_luck_draw.js
   TimeOut: 100
@@ -208,6 +212,7 @@ js_config:
   Env: jd_lzkj_loreal_draw_url
   KeyWord:
   - - jd_lzkj_loreal_draw_url
+  - - jd_loreal_lzkj_draw_id
   Name: 幸运抽奖（lzkj_loreal）
   Script: jd_lzkj_loreal_draw.js
   TimeOut: 0
@@ -530,6 +535,8 @@ js_config:
   Env: jd_wxCartKoi_activityId
   KeyWord:
   - - jd_wxCartKoi_activityId
+  - - jd_wx_CartKoi
+  - - jd_wx_cartKoi_id
   Name: 购物车锦鲤（超级无线）
   Script: jd_wxCartKoi.js
   TimeOut: 0
@@ -550,9 +557,11 @@ js_config:
   Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
-  - - jd_wxCollectionActivityUrl
-  - - M_WX_ADD_CART_URL
+  - - jd_cjhy_wxCollectionActivityId
+  - - jd_wx_collection_id
+  - - jd_wx_collection
   Name: 加购有礼（超级无线/超级会员）
+  RegularRules: 'cjhy@[\d|a-z]{32}@0'
   Script: jd_wxCollectionActivity.js
   TimeOut: 0
   Wait: 2
@@ -624,9 +633,12 @@ js_config:
   Disable: 0
   Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
+  - - jd_wxShopFollowActivity_activityId
   - - jd_wxShopFollowActivity_activityUrl
-  - - M_WX_FOLLOW_DRAW_URL
+  - - jd_wx_shopFollow_id
+  - - jd_wx_followshop
   Name: 关注店铺有礼（超级无线/超级会员）
+  RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_wxShopFollowActivity.js
   TimeOut: 0
   Wait: 2
@@ -656,6 +668,8 @@ js_config:
   Env: jd_daily_activityUrl
   KeyWord:
   - - jd_daily_activityUrl
+  - - jd_wx_daily_id
+  - - jd_wx_daily
   Name: 每日抢好礼（超级无线/超级会员）
   Script: jd_daily.js
   TimeOut: 0
@@ -677,6 +691,8 @@ js_config:
   Env: jd_lzkj_loreal_share_url
   KeyWord:
   - - jd_lzkj_loreal_share_url
+  - - jd_loreal_lzkj_sharePolitely_id
+  - - jd_lz_share
   Name: 分享有礼（lzkj_loreal）
   Script: jd_lzkj_loreal_share.js
   TimeOut: 0
@@ -770,5 +786,15 @@ js_config:
   - - jd_joinCommonId
   Name: 【船长】通用开卡-joinCommon系列
   Script: jd_joinCommon_opencard.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: DPQDTK
+  KeyWord:
+  - - DPQDTK
+  - - jd_shopSign_investigate_id
+  Name: 常规店铺签到
+  Script: jd_dpqd.js
   TimeOut: 0
   Wait: 2
