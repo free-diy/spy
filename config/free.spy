@@ -1,6 +1,7 @@
 js_config:
 - Container:
   - []
+  Disable: 0
   Env: DPLHTY
   KeyWord:
   - - DPLHTY
@@ -10,6 +11,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_cjhy_activityId
   KeyWord:
   - - jd_cjhy_activityId
@@ -20,6 +22,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_zdjr_activityId
   KeyWord:
   - - jd_zdjr_activityId
@@ -30,6 +33,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_sevenDay_activityUrl
   KeyWord:
   - - jd_sevenDay_activityUrl
@@ -46,6 +50,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_shopSign_activityUrl
   KeyWord:
   - - jd_shopSign_activityUrl
@@ -55,6 +60,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxTeam_activityUrl
   KeyWord:
   - - jd_wxTeam_activityUrl
@@ -64,6 +70,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_gzsl_contactWare_activityUrl
   KeyWord:
   - - jd_gzsl_contactWare_activityUrl
@@ -73,6 +80,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_gzsl_getLottery_activityUrl
   KeyWord:
   - - jd_gzsl_getLottery_activityUrl
@@ -82,6 +90,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_gzsl_shopGiftBag_activityUrl
   KeyWord:
   - - jd_gzsl_shopGiftBag_activityUrl
@@ -91,6 +100,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: VENDER_ID
   KeyWord:
   - - VENDER_ID
@@ -100,6 +110,7 @@ js_config:
   Wait: 10
 - Container:
   - []
+  Disable: 0
   Env: LUCK_DRAW_URL
   KeyWord:
   - - LUCK_DRAW_URL
@@ -110,6 +121,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_wxSign_sign_lzkj_Ids
   KeyWord:
   - - jd_wxSign_sign_lzkj_Ids
@@ -119,6 +131,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_pointExgBeans_activityUrl
   KeyWord:
   - - jd_pointExgBeans_activityUrl
@@ -128,6 +141,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_pointExgHb_activityUrl
   KeyWord:
   - - jd_pointExgHb_activityUrl
@@ -137,6 +151,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_pointExgShiWu_activityUrl
   KeyWord:
   - - jd_pointExgShiWu_activityUrl
@@ -146,6 +161,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: JD_Lottery_cart
   KeyWord:
   - - JD_Lottery_cart
@@ -155,6 +171,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: JD_Lottery
   KeyWord:
   - - JD_Lottery
@@ -166,6 +183,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_shopDraw_activityUrl
   KeyWord:
   - - jd_shopDraw_activityUrl
@@ -175,6 +193,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_cart_url
   KeyWord:
   - - jd_lzkj_loreal_cart_url
@@ -184,6 +203,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_draw_url
   KeyWord:
   - - jd_lzkj_loreal_draw_url
@@ -193,6 +213,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_invite_url
   KeyWord:
   - - jd_lzkj_loreal_invite_url
@@ -203,6 +224,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_lkFollowShop_url
   KeyWord:
   - - jd_lzkj_loreal_lkFollowShop_url
@@ -212,6 +234,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_followGoods_url
   KeyWord:
   - - jd_lzkj_loreal_followGoods_url
@@ -221,6 +244,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_upperSign_url
   KeyWord:
   - - jd_lzkj_loreal_upperSign_url
@@ -230,6 +254,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_daySign_url
   KeyWord:
   - - jd_lzkj_loreal_daySign_url
@@ -239,6 +264,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_sign_url
   KeyWord:
   - - jd_lzkj_loreal_sign_url
@@ -248,6 +274,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxShopGift_activityUrl
   KeyWord:
   - - jd_wxShopGift_activityUrl
@@ -279,6 +306,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_collect_shop_activityUrl
   KeyWord:
   - - jd_collect_shop_activityUrl
@@ -288,6 +316,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lottery_activityUrl
   KeyWord:
   - - jd_lottery_activityUrl
@@ -297,6 +326,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_share_new_activityUrl
   KeyWord:
   - - jd_share_new_activityUrl
@@ -306,6 +336,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_shop_gift_activityUrl
   KeyWord:
   - - jd_shop_gift_activityUrl
@@ -315,6 +346,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_sign_in_activityUrl
   KeyWord:
   - - jd_sign_in_activityUrl
@@ -379,6 +411,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_jinggeng_showInviteJoin_activityUrl
   KeyWord:
   - - jd_jinggeng_showInviteJoin_activityUrl
@@ -388,6 +421,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_jinggeng_showPartition_activityUrl
   KeyWord:
   - - jd_jinggeng_showPartition_activityUrl
@@ -397,6 +431,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_jinggeng_showPerfectInformation_activityUrl
   KeyWord:
   - - jd_jinggeng_showPerfectInformation_activityUrl
@@ -406,6 +441,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_jinggeng_showSign_activityUrl
   KeyWord:
   - - jd_jinggeng_showSign_activityUrl
@@ -415,6 +451,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_jinggeng_showTaskDraw_activityUrl
   KeyWord:
   - - jd_jinggeng_showTaskDraw_activityUrl
@@ -435,6 +472,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_shopGift_url
   KeyWord:
   - - jd_lzkj_loreal_shopGift_url
@@ -444,6 +482,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_know_url
   KeyWord:
   - - jd_lzkj_loreal_know_url
@@ -453,6 +492,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_dailyGrabs_url
   KeyWord:
   - - jd_lzkj_loreal_dailyGrabs_url
@@ -463,6 +503,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_organizeTeam_url
   KeyWord:
   - - jd_lzkj_loreal_organizeTeam_url
@@ -473,6 +514,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxCartKoi_activityId
   KeyWord:
   - - jd_wxCartKoi_activityId
@@ -481,7 +523,8 @@ js_config:
   TimeOut: 0
   Wait: 5
 - Container:
-  - - 1
+  - []
+  Disable: 0
   Env: jd_wxCollectCard_activityId
   KeyWord:
   - - jd_wxCollectCard_activityId
@@ -491,6 +534,7 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Disable: 0
   Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
@@ -502,6 +546,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxFansInterActionActivity_activityId
   KeyWord:
   - - jd_wxFansInterActionActivity_activityId
@@ -511,6 +556,7 @@ js_config:
   Wait: 10
 - Container:
   - []
+  Disable: 0
   Env: jd_drawCenter_activityId
   KeyWord:
   - - jd_drawCenter_activityId
@@ -520,6 +566,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxGameActivity_activityUrl
   KeyWord:
   - - jd_wxGameActivity_activityUrl
@@ -529,6 +576,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
   - - jd_wxKnowledgeActivity_activityUrl
@@ -538,6 +586,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_completeInfoActivity_venderId
   KeyWord:
   - - jd_completeInfoActivity_venderId
@@ -547,6 +596,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxMcLevelAndBirthGifts_activityId
   KeyWord:
   - - jd_wxMcLevelAndBirthGifts_activityId
@@ -557,6 +607,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
   - - jd_wxShopFollowActivity_activityUrl
@@ -567,6 +618,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxgame_activityId
   KeyWord:
   - - jd_wxgame_activityId
@@ -576,6 +628,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxSecond_activityId
   KeyWord:
   - - jd_wxSecond_activityId
@@ -585,6 +638,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_daily_activityUrl
   KeyWord:
   - - jd_daily_activityUrl
@@ -594,6 +648,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxShareActivity_activityId
   KeyWord:
   - - jd_wxShareActivity_activityId
@@ -604,6 +659,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_share_url
   KeyWord:
   - - jd_lzkj_loreal_share_url
@@ -613,6 +669,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_lzkj_loreal_perfectInfo_url
   KeyWord:
   - - jd_lzkj_loreal_perfectInfo_url
@@ -622,6 +679,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxUnPackingActivity_activityId
   KeyWord:
   - - jd_wxUnPackingActivity_activityId
@@ -631,6 +689,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: prodevactCode
   KeyWord:
   - - prodevactCode
@@ -640,6 +699,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jinggengInviteJoin
   KeyWord:
   - - jinggengInviteJoin
@@ -649,6 +709,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_wxShopGiftId
   KeyWord:
   - - jd_wxShopGiftId
@@ -658,6 +719,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_inv_authorCode
   KeyWord:
   - - jd_inv_authorCode
@@ -668,6 +730,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_shopFollowGiftId
   KeyWord:
   - - jd_shopFollowGiftId
@@ -677,6 +740,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_shopLeagueId
   KeyWord:
   - - jd_shopLeagueId
@@ -686,6 +750,7 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
   Env: jd_joinCommonId
   KeyWord:
   - - jd_joinCommonId
