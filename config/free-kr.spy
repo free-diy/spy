@@ -48,6 +48,7 @@ js_config:
   Env: jd_wxTeam_activityUrl
   KeyWord:
   - - jd_wxTeam_activityUrl
+  - - jd_wxTeam_wxId
   - - jd_wx_team_id
   - - jd_wx_team
   Name: 组队瓜分奖品（超级无线/超级会员
