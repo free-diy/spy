@@ -745,6 +745,16 @@ js_config:
 - Container:
   - []
   Disable: 0
+  Env: jd_drawShopGift_argv
+  KeyWord:
+  - - jd_drawShopGift_argv
+  Name: 店铺关注有礼
+  Script: jd_drawShopGift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
   Env: prodevactCode
   KeyWord:
   - - prodevactCode
