@@ -627,6 +627,8 @@ js_config:
   Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
   - - jd_wxKnowledgeActivity_activityUrl
+  - - jd_wxKnowledge_wxId
+  - - jd_wx_Knowledge
   Name: 知识超人（超级无线/超级会员）
   Script: jd_wxKnowledgeActivity.js
   TimeOut: 0
