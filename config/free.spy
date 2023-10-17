@@ -12,28 +12,6 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: jd_cjhy_activityId
-  KeyWord:
-  - - jd_cjhy_activityId
-  - - jd_cjhydz_wxTeam_Id
-  Name: 组队瓜分奖品（超级会员）
-  Script: jd_cjzdgf.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Disable: 0
-  Env: jd_zdjr_activityId
-  KeyWord:
-  - - jd_zdjr_activityId
-  - - jd_lzkjdz_wxTeam_Id
-  Name: 组队瓜分奖品（超级无线）
-  Script: jd_zdjr.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Disable: 0
   Env: jd_shopSign_activityUrl
   KeyWord:
   - - jd_shopSign_activityUrl
@@ -63,26 +41,6 @@ js_config:
   - - jd_gzsl_contactWare_activityUrl
   Name: 关注有礼（无线营销）
   Script: jd_gzsl_contactWare.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Disable: 0
-  Env: jd_gzsl_getLottery_activityUrl
-  KeyWord:
-  - - jd_gzsl_getLottery_activityUrl
-  Name: 幸运大转盘（无线营销）
-  Script: jd_gzsl_getLottery.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Disable: 0
-  Env: jd_gzsl_shopGiftBag_activityUrl
-  KeyWord:
-  - - jd_gzsl_shopGiftBag_activityUrl
-  Name: 店铺礼包（无线营销）
-  Script: jd_gzsl_shopGiftBag.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -350,36 +308,6 @@ js_config:
   - - jd_lottery_activityUrl
   Name: 收藏大师-幸运抽奖
   Script: jd_txzj_lottery.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jd_share_new_activityUrl
-  KeyWord:
-  - - jd_share_new_activityUrl
-  Name: 分享有礼（收藏大师）
-  Script: jd_txzj_share_new.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jd_shop_gift_activityUrl
-  KeyWord:
-  - - jd_shop_gift_activityUrl
-  Name: 店铺礼包（收藏大师）
-  Script: jd_txzj_shop_gift.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jd_sign_in_activityUrl
-  KeyWord:
-  - - jd_sign_in_activityUrl
-  Name: 签到有礼（收藏大师）
-  Script: jd_txzj_sign_in.js
   TimeOut: 0
   Wait: 2
 - Container:
