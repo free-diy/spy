@@ -642,9 +642,11 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: jd_completeInfoActivity_venderId
+  Env: jd_completeInfoActivity_activityUrl
   KeyWord:
-  - - jd_completeInfoActivity_venderId
+  - - jd_completeInfoActivity_activityUrl
+  - - jd_wxCompleteInfo_wxId
+  - - jd_wx_completeInfo
   Name: 完善信息有礼（超级会员）
   Script: jd_completeInfoActivity.js
   TimeOut: 0
