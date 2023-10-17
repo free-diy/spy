@@ -437,6 +437,9 @@ js_config:
   Env: jd_jinggeng_showInviteJoin_activityUrl
   KeyWord:
   - - jd_jinggeng_showInviteJoin_activityUrl
+  - - jinggengInviteJoin
+  - - jd_wx_jinggeng_invite_wxId
+  - - jd_jinggeng_showInviteJoin
   Name: 邀请入会赢好礼（京耕）
   Script: jd_jinggeng_showInviteJoin.js
   TimeOut: 0
@@ -783,16 +786,6 @@ js_config:
   - - jd_opencardLCD_id
   Name: 京东超级福利社（通用开卡）
   Script: jd_opencardLCD.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jinggengInviteJoin
-  KeyWord:
-  - - jinggengInviteJoin
-  Name: 【船长】邀请入会有礼
-  Script: jd_jinggengInvite.py
   TimeOut: 0
   Wait: 2
 - Container:
