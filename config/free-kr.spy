@@ -305,6 +305,7 @@ js_config:
   - - jd_wxShopGift_activityUrl
   - - jd_wxShopGift_wxId
   - - jd_daily_follow
+  - - jd_wxShopGiftId
   Name: 店铺礼包特效
   Script: jd_wxShopGift.js
   TimeOut: 0
@@ -802,16 +803,6 @@ js_config:
   - - jd_opencardLCD_id
   Name: 京东超级福利社（通用开卡）
   Script: jd_opencardLCD.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jd_wxShopGiftId
-  KeyWord:
-  - - jd_wxShopGiftId
-  Name: 【船长】特效关注有礼
-  Script: jd_wxShopGift.py
   TimeOut: 0
   Wait: 2
 - Container:
