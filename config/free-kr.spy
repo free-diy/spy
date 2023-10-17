@@ -734,11 +734,32 @@ js_config:
 - Container:
   - []
   Disable: 0
+  Env: DPQDTK
+  KeyWord:
+  - - DPQDTK
+  - - jd_shopSign_investigate_id
+  Name: 常规店铺签到
+  Script: jd_dpqd.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
   Env: prodevactCode
   KeyWord:
   - - prodevactCode
   Name: 邀请好友入会得好礼
   Script: jd_prodev.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: jd_opencardLCD_id
+  KeyWord:
+  - - jd_opencardLCD_id
+  Name: 京东超级福利社（通用开卡）
+  Script: jd_opencardLCD.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -802,14 +823,4 @@ js_config:
   Script: jd_joinCommon_opencard.py
   TimeOut: 0
   Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: DPQDTK
-  KeyWord:
-  - - DPQDTK
-  - - jd_shopSign_investigate_id
-  Name: 常规店铺签到
-  Script: jd_dpqd.js
-  TimeOut: 0
-  Wait: 2
+
