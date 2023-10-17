@@ -663,6 +663,8 @@ js_config:
   Env: jd_wxgame_activityId
   KeyWord:
   - - jd_wxgame_activityId
+  - - jd_wxgame_wxId
+  - - jd_wx_game
   Name: 无线游戏（超级无线）
   Script: jd_wxgame.js
   TimeOut: 0
