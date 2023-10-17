@@ -493,6 +493,7 @@ js_config:
   Env: jd_lzkj_loreal_pointsExchange_url
   KeyWord:
   - - jd_lzkj_loreal_pointsExchange_url
+  - - jd_lz_exchange
   Name: 积分兑换（超级无线）
   Script: jd_lzkj_loreal_pointsExchange.js
   TimeOut: 0
