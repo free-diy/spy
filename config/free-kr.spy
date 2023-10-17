@@ -580,6 +580,7 @@ js_config:
   - - jd_wxCollectionActivity_activityUrl
   - - jd_cjhy_wxCollectionActivityId
   - - jd_wx_collection_id
+  - - jd_wxCollection_wxId
   - - jd_wx_collection
   Name: 加购有礼（超级无线/超级会员）
   RegularRules: 'cjhy@[\d|a-z]{32}@0'
