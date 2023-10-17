@@ -486,6 +486,8 @@ js_config:
   Env: jd_wxBuildActivity_activityId
   KeyWord:
   - - jd_wxBuildActivity_activityId
+  - - jd_wxBuild_wxId
+  - - jd_wx_build
   Name: 盖楼有礼（超级无线）
   OverdueTime: 1800
   Script: jd_wxBuildActivity.js
