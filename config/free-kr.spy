@@ -248,6 +248,7 @@ js_config:
   Env: jd_lzkj_loreal_lkFollowShop_url
   KeyWord:
   - - jd_lzkj_loreal_lkFollowShop_url
+  - - jd_lz_lkFollowShop
   Name: 关注有礼（lzkj_loreal）
   Script: jd_lzkj_loreal_lkFollowShop.js
   TimeOut: 0
