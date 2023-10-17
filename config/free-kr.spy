@@ -649,9 +649,11 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: jd_wxMcLevelAndBirthGifts_activityId
+  Env: jd_wxMcLevelAndBirthGifts_activityUrl
   KeyWord:
-  - - jd_wxMcLevelAndBirthGifts_activityId
+  - - jd_wxMcLevelAndBirthGifts_activityUrl
+  - - jd_wxMcLevelAndBirthGifts_wxId
+  - - jd_wx_McLevelAndBirthGifts
   - - jd_wxBirthGiftsId
   Name: 生日礼包和会员等级礼包
   Script: jd_wxMcLevelAndBirthGifts.js
