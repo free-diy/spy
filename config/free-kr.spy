@@ -717,6 +717,8 @@ js_config:
   Env: jd_wxShareActivity_activityId
   KeyWord:
   - - jd_wxShareActivity_activityId
+  - - jd_wxShare_wxId
+  - - jd_wx_share
   - - jd_fxyl_activityId
   Name: 分享有礼（超级无线）
   Script: jd_wxShareActivity.js
