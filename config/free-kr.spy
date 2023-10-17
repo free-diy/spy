@@ -611,6 +611,8 @@ js_config:
   Env: jd_wxGameActivity_activityUrl
   KeyWord:
   - - jd_wxGameActivity_activityUrl
+  - - jd_wxGameActivity_wxId
+  - - jd_wx_gameActivity
   Name: 游戏赢大礼（超级无线/超级会员）
   Script: jd_wxGameActivity.js
   TimeOut: 0
