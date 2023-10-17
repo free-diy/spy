@@ -36,16 +36,6 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: jd_gzsl_contactWare_activityUrl
-  KeyWord:
-  - - jd_gzsl_contactWare_activityUrl
-  Name: 关注有礼（无线营销）
-  Script: jd_gzsl_contactWare.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Disable: 0
   Env: VENDER_ID
   KeyWord:
   - - VENDER_ID
