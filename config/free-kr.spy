@@ -755,9 +755,12 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: prodevactCode
+  Env: jd_prodev_actCode
   KeyWord:
-  - - prodevactCode
+  - - jd_inv_authorCode
+  - - jd_prodev_actCode
+  - - yhyauthorCode
+  - - jd_invite
   Name: 邀请好友入会得好礼
   Script: jd_prodev.js
   TimeOut: 0
@@ -790,17 +793,6 @@ js_config:
   - - jd_wxShopGiftId
   Name: 【船长】特效关注有礼
   Script: jd_wxShopGift.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jd_inv_authorCode
-  KeyWord:
-  - - jd_inv_authorCode
-  - - yhyauthorCode
-  Name: 【船长】邀好友赢大礼
-  Script: jd_inviteFriendsGift.py
   TimeOut: 0
   Wait: 2
 - Container:
