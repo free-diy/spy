@@ -154,6 +154,7 @@ js_config:
   KeyWord:
   - - jd_pointExgBeans_activityUrl
   - - jd_wx_pointExgBeans_id
+  - - jd_wxPointShop_bean_wxId
   Name: 积分兑换京豆（超级会员）
   Script: jd_pointExgBeans.js
   TimeOut: 0
