@@ -687,6 +687,7 @@ js_config:
   KeyWord:
   - - jd_daily_activityUrl
   - - jd_wx_daily_id
+  - - jd_wxDaily_wxId
   - - jd_wx_daily
   Name: 每日抢好礼（超级无线/超级会员）
   Script: jd_daily.js
