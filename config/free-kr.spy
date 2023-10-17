@@ -303,6 +303,8 @@ js_config:
   Env: jd_wxShopGift_activityUrl
   KeyWord:
   - - jd_wxShopGift_activityUrl
+  - - jd_wxShopGift_wxId
+  - - jd_daily_follow
   Name: 店铺礼包特效
   Script: jd_wxShopGift.js
   TimeOut: 0
