@@ -597,6 +597,7 @@ js_config:
   KeyWord:
   - - jd_drawCenter_activityId
   - - jd_wx_drawCenter_id
+  - - jd_wxDrawCenter_wxId
   - - jd_wx_drawCenter
   Name: 店铺抽奖中心（超级无线）
   Script: jd_drawCenter.js
