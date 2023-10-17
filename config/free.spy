@@ -241,6 +241,7 @@ js_config:
   Env: jd_lzkj_loreal_sign_url
   KeyWord:
   - - jd_lzkj_loreal_sign_url
+  - - jd_loreal_lzkj_sign_id
   Name: 签到抽奖（lzkj_loreal）
   Script: jd_lzkj_loreal_sign.js
   TimeOut: 0
@@ -254,6 +255,7 @@ js_config:
   - - jd_wxShopGift_wxId
   - - jd_daily_follow
   - - jd_wxShopGiftId
+  - - jd_wx_shopGift_id
   Name: 店铺礼包特效
   Script: jd_wxShopGift.js
   TimeOut: 0
@@ -264,6 +266,7 @@ js_config:
   Env: jd_cart_item_activityUrl
   KeyWord:
   - - jd_cart_item_activityUrl
+  - - jd_txzj_cart_item_id
   Name: 加购有礼（收藏大师）
   OverdueTime: 1800
   Script: jd_txzj_cart_item.js
@@ -275,6 +278,7 @@ js_config:
   Env: jd_collect_item_activityUrl
   KeyWord:
   - - jd_collect_item_activityUrl
+  - - jd_txzj_collect_item_id
   Name: 收藏大师-关注有礼
   OverdueTime: 1800
   Script: jd_txzj_collect_item.js
@@ -296,6 +300,7 @@ js_config:
   Env: jd_lottery_activityUrl
   KeyWord:
   - - jd_lottery_activityUrl
+  - - jd_txzj_lottery_id
   Name: 收藏大师-幸运抽奖
   Script: jd_txzj_lottery.js
   TimeOut: 0
@@ -437,6 +442,7 @@ js_config:
   Env: jd_lzkj_loreal_pointsExchange_url
   KeyWord:
   - - jd_lzkj_loreal_pointsExchange_url
+  - - jd_loreal_lzkj_pointsExchange_id
   - - jd_lz_exchange
   Name: 积分兑换（超级无线）
   Script: jd_lzkj_loreal_pointsExchange.js
@@ -663,6 +669,7 @@ js_config:
   Env: jd_lzkj_loreal_perfectInfo_url
   KeyWord:
   - - jd_lzkj_loreal_perfectInfo_url
+  - - jd_loreal_lzkj_perfectInfo_id
   Name: 完善有礼（lzkj_loreal）
   Script: jd_lzkj_loreal_perfectInfo.js
   TimeOut: 0
