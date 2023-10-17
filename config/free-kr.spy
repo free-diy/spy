@@ -778,6 +778,7 @@ js_config:
   Env: jd_drawShopGift_argv
   KeyWord:
   - - jd_drawShopGift_argv
+  - - jd_shopFollowGiftId
   Name: 店铺关注有礼
   Script: jd_drawShopGift.js
   TimeOut: 0
@@ -808,16 +809,6 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: jd_shopFollowGiftId
-  KeyWord:
-  - - jd_shopFollowGiftId
-  Name: 【船长】关注有礼
-  Script: jd_shopFollowGift.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
   Env: jd_shopLeagueId
   KeyWord:
   - - jd_shopLeagueId
@@ -835,4 +826,3 @@ js_config:
   Script: jd_joinCommon_opencard.py
   TimeOut: 0
   Wait: 2
-
