@@ -747,6 +747,8 @@ js_config:
   Env: jd_wxUnPackingActivity_activityId
   KeyWord:
   - - jd_wxUnPackingActivity_activityId
+  - - jd_wxUnPacking_wxId
+  - - jd_wx_UnPacking
   Name: 让福袋飞（超级无线）
   Script: jd_wxUnPackingActivity.js
   TimeOut: 0
