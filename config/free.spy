@@ -29,7 +29,7 @@ js_config:
   - - jd_wxTeam_wxId
   - - jd_wx_team_id
   - - jd_wx_team
-  Name: 组队瓜分奖品（超级无线/超级会员
+  Name: 组队瓜分奖品（超级无线/超级会员）
   Script: jd_wxTeam.js
   TimeOut: 0
   Wait: 2
