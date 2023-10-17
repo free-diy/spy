@@ -34,23 +34,6 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: jd_sevenDay_activityUrl
-  KeyWord:
-  - - jd_sevenDay_activityUrl
-  - - CJHY_SIGN
-  - - CJHY_SEVENDAY
-  - - LZKJ_SIGN
-  - - LZKJ_SEVENDAY
-  - - SEVENDAY_LIST
-  - - SEVENDAY_LIST2
-  - - SEVENDAY_LIST3
-  Name: 店铺签到-超级无线
-  Script: jd_sevenDayjk.js
-  TimeOut: 10
-  Wait: 5
-- Container:
-  - []
-  Disable: 0
   Env: jd_shopSign_activityUrl
   KeyWord:
   - - jd_shopSign_activityUrl
@@ -129,6 +112,36 @@ js_config:
   Env: jd_wxSign_sign_lzkj_Ids
   KeyWord:
   - - jd_wxSign_sign_lzkj_Ids
+  Name: 店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
+  TimeOut: 10
+  Wait: 5
+- Container:
+  - []
+  Disable: 0
+  Env: jd_wxSign_sevenDay_lzkj_Ids
+  KeyWord:
+  - - jd_wxSign_sevenDay_lzkj_Ids
+  Name: 店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
+  TimeOut: 10
+  Wait: 5
+- Container:
+  - []
+  Disable: 0
+  Env: jd_wxSign_sign_cjhy_Ids
+  KeyWord:
+  - - jd_wxSign_sign_cjhy_Ids
+  Name: 店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
+  TimeOut: 10
+  Wait: 5
+- Container:
+  - []
+  Disable: 0
+  Env: jd_wxSign_sevenDay_cjhy_Ids
+  KeyWord:
+  - - jd_wxSign_sevenDay_cjhy_Ids
   Name: 店铺签到（超级无线/超级会员）
   Script: jd_wxSign.js
   TimeOut: 10
