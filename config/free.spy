@@ -73,6 +73,7 @@ js_config:
   Env: jd_lzkj_loreal_inviteFollowShop_url
   KeyWord:
   - - jd_lzkj_loreal_inviteFollowShop_url
+  - - jd_loreal_lzkj_inviteFollowShop_id
   - - jd_lz_followShop
   Name: 邀请关注店铺有礼（超级无线）
   Script: jd_lzkj_loreal_inviteFollowShop.js
