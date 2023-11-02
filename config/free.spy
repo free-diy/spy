@@ -40,7 +40,7 @@ js_config:
   Env: jd_fansDraw_activityUrl
   KeyWord:
   - - jd_fansDraw_activityUrl
-  Name: 【SM】粉丝福利红包
+  Name: 粉丝福利红包
   Script: jd_fansDraw.js
   TimeOut: 30
   Wait: 2
