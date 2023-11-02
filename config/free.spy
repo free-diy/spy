@@ -177,9 +177,9 @@ js_config:
 - Container:
   - []
   Disable: 0
-  Env: jd_shopDraw_activityUrl
+  Env: jd_shopDraw_venderId
   KeyWord:
-  - - jd_shopDraw_activityUrl
+  - - jd_shopDraw_venderId
   Name: 店铺左侧刮刮乐
   Script: jd_shopDraw.js
   TimeOut: 0
