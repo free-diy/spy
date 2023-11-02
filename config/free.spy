@@ -37,6 +37,16 @@ js_config:
 - Container:
   - []
   Disable: 0
+  Env: jd_fansDraw_activityUrl
+  KeyWord:
+  - - jd_fansDraw_activityUrl
+  Name: 【SM】粉丝福利红包
+  Script: jd_fansDraw.js
+  TimeOut: 30
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
   Env: VENDER_ID
   KeyWord:
   - - VENDER_ID
