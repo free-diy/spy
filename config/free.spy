@@ -5,7 +5,6 @@ js_config:
   Env: DPLHTY
   KeyWord:
   - - DPLHTY
-  - - jd_mpdz_BigAlliance_opencard
   Name: 大牌联合通用开卡
   Script: jd_opencardDPLHTY.js
   TimeOut: 0
