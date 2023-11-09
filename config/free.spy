@@ -759,25 +759,3 @@ js_config:
   Script: jd_opencardLCD.js
   TimeOut: 0
   Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jd_shopLeagueId
-  KeyWord:
-  - - jd_shopLeagueId
-  - - jd_wx_shopLeague_opencard_wxId
-  Name: 【船长】通用开卡-shopLeague系列
-  Script: jd_shopLeague_opencard.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Disable: 0
-  Env: jd_joinCommonId
-  KeyWord:
-  - - jd_joinCommonId
-  - - jd_wx_joinCommon_opencard_wxId
-  Name: 【船长】通用开卡-joinCommon系列
-  Script: jd_joinCommon_opencard.py
-  TimeOut: 0
-  Wait: 2
