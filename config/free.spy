@@ -759,3 +759,13 @@ js_config:
   Script: jd_opencardLCD.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: jd_lzdz1_joinCommon_Id
+  KeyWord:
+  - - jd_lzdz1_joinCommon_Id
+  Name: 常规卡通用（环境）
+  Script: jd_opencard_common.js
+  TimeOut: 0
+  Wait: 2
