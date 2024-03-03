@@ -655,7 +655,7 @@ js_config:
   - - jd_lzkj_loreal_share_url
   - - jd_loreal_lzkj_sharePolitely_id
   - - jd_lz_share
-  Name: 分享有礼（超级无线）
+  Name: lzkj分享有礼（超级无线）
   Script: SuperManito_cishanjia_main/jd_lzkj_loreal_share.js
   TimeOut: 0
   Wait: 2
