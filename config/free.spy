@@ -5,6 +5,7 @@ js_config:
   KeyWord:
   - - jd_shopSign_activityUrl
   - - jd_wx_sign_id
+  - - LZKJ_SIGN
   Name: 无线店铺签到（超级无线/超级会员）
   Script: SuperManito_cishanjia_main/jd_shopSign.js
   TimeOut: 0
