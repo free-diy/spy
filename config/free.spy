@@ -212,7 +212,6 @@ js_config:
   - - jd_cart_item_activityUrl
   - - jd_txzj_cart_item_id
   Name: 加购有礼（收藏大师）
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_txzj_cart_item.js
   TimeOut: 0
   Wait: 2
@@ -223,7 +222,6 @@ js_config:
   - - jd_collect_item_activityUrl
   - - jd_txzj_collect_item_id
   Name: 收藏大师-关注有礼
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_txzj_collect_item.js
   TimeOut: 0
   Wait: 2
@@ -279,7 +277,6 @@ js_config:
   KeyWord:
   - - jd_jinggeng_floor_activityUrl
   Name: 盖楼有礼（京耕）
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_jinggeng_floor.js
   TimeOut: 0
   Wait: 2
@@ -289,8 +286,16 @@ js_config:
   KeyWord:
   - - jd_jinggeng_loadBlindBox_activityUrl
   Name: 惊喜开盲盒（京耕）
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_jinggeng_loadBlindBox.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_exchangeActDetail_url
+  KeyWord:
+  - - jd_jinggeng_exchangeActDetail_url
+  Name: 积分兑换（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_exchangeActDetail.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -344,7 +349,6 @@ js_config:
   KeyWord:
   - - jd_jinggeng_showCart_activityUrl
   Name: 加购有礼（京耕）
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_jinggeng_showCart.js
   TimeOut: 0
   Wait: 2
@@ -354,7 +358,6 @@ js_config:
   KeyWord:
   - - jd_jinggeng_showDrawOne_activityUrl
   Name: 大转盘抽奖（京耕）
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_jinggeng_showDrawOne.js
   TimeOut: 0
   Wait: 2
@@ -364,7 +367,6 @@ js_config:
   KeyWord:
   - - jd_jinggeng_showFavoriteShop_activityUrl
   Name: 关注店铺有礼（京耕）
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_jinggeng_showFavoriteShop.js
   TimeOut: 0
   Wait: 2
@@ -433,7 +435,6 @@ js_config:
   - - jd_wxBuild_wxId
   - - jd_wx_build
   Name: 盖楼有礼（超级无线）
-  OverdueTime: 1800
   Script: SuperManito_cishanjia_main/jd_wxBuildActivity.js
   TimeOut: 0
   Wait: 2
