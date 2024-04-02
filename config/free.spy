@@ -723,6 +723,16 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_sendbeans_urls
+  KeyWord:
+  - - jd_sendbeans_urls
+  - - jd_sendbeans_url
+  Name: 翻牌签到
+  Script: feverrun_my_scripts/jd_sendbeans.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_lzdz1_joinCommon_Id
   KeyWord:
   - - jd_lzdz1_joinCommon_Id
