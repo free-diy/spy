@@ -117,6 +117,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_lzkj_v2_sign_url
+  KeyWord:
+  - - jd_lzkj_v2_sign_url
+  Name: 签到有礼（超级无线V2）
+  Script: SuperManito_cishanjia_main/jd_lzkj_v2_sign.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_share_new_activityUrl
   KeyWord:
   - - jd_share_new_activityUrl
@@ -537,12 +546,20 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_wxMcLevelAndBirthGifts_activityUrl
+  Env: jd_wxMcLevelAndBirthGifts_activityId
   KeyWord:
-  - - jd_wxMcLevelAndBirthGifts_activityUrl
   - - jd_wxMcLevelAndBirthGifts_activityId
   Name: 生日礼包/会员等级礼包（超级会员）
   Script: SuperManito_cishanjia_main/jd_wxMcLevelAndBirthGifts.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_v2_birthday_url
+  KeyWord:
+  - - jd_lzkj_v2_birthday_url
+  Name: 生日礼包（超级无线V2）
+  Script: SuperManito_cishanjia_main/jd_lzkj_v2_birthday.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -571,6 +588,15 @@ js_config:
   - - jd_lzkj_perfectInfo_url
   Name: 完善有礼（超级无线）
   Script: SuperManito_cishanjia_main/jd_lzkj_perfectInfo.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_v2_perfectInfo_url
+  KeyWord:
+  - - jd_lzkj_v2_perfectInfo_url
+  Name: 完善有礼（超级无线V2）
+  Script: SuperManito_cishanjia_main/jd_lzkj_v2_perfectInfo.js
   TimeOut: 0
   Wait: 2
 - Container:
