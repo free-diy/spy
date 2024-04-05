@@ -775,3 +775,12 @@ js_config:
   Script: feverrun_my_scripts/jd_opencard_common.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_live_ids
+  KeyWord:
+  - - jd_live_ids
+  Name: 直播抽奖
+  Script: feverrun_my_scripts/jd_live_lottery.js
+  TimeOut: 0
+  Wait: 2
