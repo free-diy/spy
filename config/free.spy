@@ -728,7 +728,6 @@ js_config:
   Env: jd_drawShopGift_argv
   KeyWord:
   - - jd_drawShopGift_argv
-  - - jd_shopFollowGiftId
   Name: 店铺关注有礼
   Script: SuperManito_cishanjia_main/jd_drawShopGift.js
   TimeOut: 0
@@ -782,5 +781,15 @@ js_config:
   - - jd_live_ids
   Name: 直播抽奖
   Script: feverrun_my_scripts/jd_live_lottery.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_shopGifts_ids
+  KeyWord:
+  - - jd_shopGifts_ids
+  - - jd_shopFollowGiftId
+  Name: 店铺礼包
+  Script: feverrun_my_scripts/jd_shopGifts.js
   TimeOut: 0
   Wait: 2
