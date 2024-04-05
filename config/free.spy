@@ -574,6 +574,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_lzkj_v2_draw_url
+  KeyWord:
+  - - jd_lzkj_v2_draw_url
+  Name: 幸运抽奖（超级无线V2）
+  Script: SuperManito_cishanjia_main/jd_lzkj_v2_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_shop_gift_activityUrl
   KeyWord:
   - - jd_shop_gift_activityUrl
