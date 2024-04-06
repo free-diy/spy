@@ -793,3 +793,12 @@ js_config:
   Script: feverrun_my_scripts/jd_shopGifts.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: DPLHTY
+  KeyWord:
+  - - DPLHTY
+  Name: 大牌联合通用
+  Script: feverrun_my_scripts/jd_opencardDPLHTY.js
+  TimeOut: 0
+  Wait: 2
