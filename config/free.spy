@@ -558,6 +558,7 @@ js_config:
   Env: jd_lzkj_v2_birthday_url
   KeyWord:
   - - jd_lzkj_v2_birthday_url
+  - - jd_lzkj_v2_birthday_urls
   Name: 生日礼包（超级无线V2）
   Script: SuperManito_cishanjia_main/jd_lzkj_v2_birthday.js
   TimeOut: 0
@@ -577,6 +578,7 @@ js_config:
   Env: jd_lzkj_v2_draw_url
   KeyWord:
   - - jd_lzkj_v2_draw_url
+  - - jd_lzkj_v2_draw_urls
   Name: 幸运抽奖（超级无线V2）
   Script: SuperManito_cishanjia_main/jd_lzkj_v2_draw.js
   TimeOut: 0
@@ -604,6 +606,7 @@ js_config:
   Env: jd_lzkj_v2_perfectInfo_url
   KeyWord:
   - - jd_lzkj_v2_perfectInfo_url
+  - - jd_lzkj_v2_completeInfo_urls
   Name: 完善有礼（超级无线V2）
   Script: SuperManito_cishanjia_main/jd_lzkj_v2_perfectInfo.js
   TimeOut: 0
