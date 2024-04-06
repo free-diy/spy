@@ -120,6 +120,7 @@ js_config:
   Env: jd_lzkj_v2_sign_url
   KeyWord:
   - - jd_lzkj_v2_sign_url
+  - - jd_lzkj_v2_sign_urls
   Name: 签到有礼（超级无线V2）
   Script: SuperManito_cishanjia_main/jd_lzkj_v2_sign.js
   TimeOut: 0
