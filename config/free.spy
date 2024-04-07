@@ -783,6 +783,7 @@ js_config:
   Env: jd_live_ids
   KeyWord:
   - - jd_live_ids
+  - - jd_liveLottery_ids
   Name: 直播抽奖
   Script: feverrun_my_scripts/jd_live_lottery.js
   TimeOut: 0
