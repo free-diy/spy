@@ -807,3 +807,12 @@ js_config:
   Script: feverrun_my_scripts/jd_opencardDPLHTY.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_jingyun_partitionTeam_urls
+  KeyWord:
+  - - jd_jingyun_partitionTeam_urls
+  Name: jingyun 组队
+  Script: feverrun_my_scripts/jd_jingyun_partitionTeam.js
+  TimeOut: 0
+  Wait: 2
