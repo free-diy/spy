@@ -816,3 +816,21 @@ js_config:
   Script: feverrun_my_scripts/jd_jingyun_partitionTeam.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_jingyun_draw_urls
+  KeyWord:
+  - - jd_jingyun_draw_urls
+  Name: jingyun 抽奖
+  Script: feverrun_my_scripts/jd_jingyun_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jingyun_sign_urls
+  KeyWord:
+  - - jd_jingyun_sign_urls
+  Name: jingyun 签到
+  Script: feverrun_my_scripts/jd_jingyun_sign.js
+  TimeOut: 0
+  Wait: 2
