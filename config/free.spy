@@ -834,3 +834,12 @@ js_config:
   Script: feverrun_my_scripts/jd_jingyun_sign.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_jingyun_plusGift_urls
+  KeyWord:
+  - - jd_jingyun_plusGift_urls
+  Name: jingyun 加购
+  Script: feverrun_my_scripts/jd_jingyun_plusGift.js
+  TimeOut: 0
+  Wait: 2
