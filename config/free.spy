@@ -809,6 +809,16 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_lzdz1_shopLeague_Id
+  KeyWord:
+  - - jd_lzdz1_shopLeague_Id
+  - - jd_shopLeagueId
+  Name: 超店通用
+  Script: feverrun_my_scripts/jd_opencard_shopLeague.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_jingyun_partitionTeam_urls
   KeyWord:
   - - jd_jingyun_partitionTeam_urls
