@@ -267,6 +267,7 @@ js_config:
   Env: jd_gzsl_contactWare_activityUrl
   KeyWord:
   - - jd_gzsl_contactWare_activityUrl
+  - - jd_gzsl_contact_urls
   Name: 关注有礼（无线营销）
   Script: SuperManito_cishanjia_main/jd_gzsl_contactWare.js
   TimeOut: 0
