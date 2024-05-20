@@ -762,6 +762,16 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_dplh_viewShop_ids
+  KeyWord:
+  - - DPLHTY
+  - - jd_dplh_viewShop_ids
+  Name: 大牌联合(浏览)
+  Script: SuperManito_cishanjia_main/jd_dplh_viewShop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_sendbeans_urls
   KeyWord:
   - - jd_sendbeans_urls
@@ -797,15 +807,6 @@ js_config:
   - - jd_shopFollowGiftId
   Name: 店铺礼包
   Script: feverrun_my_scripts/jd_shopGifts.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: DPLHTY
-  KeyWord:
-  - - DPLHTY
-  Name: 大牌联合通用
-  Script: feverrun_my_scripts/jd_opencardDPLHTY.js
   TimeOut: 0
   Wait: 2
 - Container:
