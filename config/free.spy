@@ -640,6 +640,7 @@ js_config:
   Env: jd_lzkj_cart_url
   KeyWord:
   - - jd_lzkj_cart_url
+  - - jd_lzkj_100_jgyl_urls
   Name: 加购有礼（超级无线）
   Script: SuperManito_cishanjia_main/jd_lzkj_cart.js
   TimeOut: 0
