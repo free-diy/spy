@@ -42,6 +42,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_opencard_venderId
+  KeyWord:
+  - - jd_opencard_venderId
+  Name: 入会礼包
+  Script: SuperManito_cishanjia_main/jd_opencard.js
+  TimeOut: 0
+  Wait: 10
+- Container:
+  - []
   Env: jd_opencard_force_venderId
   KeyWord:
   - - jd_opencard_force_venderId
