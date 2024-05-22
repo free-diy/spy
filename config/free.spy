@@ -42,11 +42,11 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: VENDER_ID
+  Env: jd_opencard_force_venderId
   KeyWord:
-  - - VENDER_ID
+  - - jd_opencard_force_venderId
   Name: 强制入会
-  Script: SuperManito_cishanjia_main/jd_OpenCard_Force.js
+  Script: SuperManito_cishanjia_main/jd_opencard_force.js
   TimeOut: 0
   Wait: 10
 - Container:
