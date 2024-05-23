@@ -47,7 +47,7 @@ js_config:
   - - jd_opencard_venderId
   - - jd_opencard_force_venderId
   Name: 入会礼包
-  Script: SuperManito_cishanjia_main/jd_opencard.js
+  Script: SuperManito_cishanjia_main/jd_opencard_gift.js
   TimeOut: 0
   Wait: 10
 - Container:
