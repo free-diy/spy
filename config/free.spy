@@ -764,12 +764,12 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_dplh_viewShop_ids
+  Env: DPLHTY_VIEWSHOP_ID
   KeyWord:
-  - - DPLHTY
+  - - DPLHTY_VIEWSHOP_ID
   - - jd_dplh_viewShop_ids
-  Name: 大牌联合(浏览)
-  Script: SuperManito_cishanjia_main/jd_dplh_viewShop.js
+  Name: 大牌联合浏览通用
+  Script: feverrun_my_scripts/jd_opencard_viewshop.js
   TimeOut: 0
   Wait: 2
 - Container:
