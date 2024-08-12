@@ -24,11 +24,12 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_shopGift_url
+  Env: jd_lzkj_loreal_shopGift_url
   KeyWord:
+  - - jd_lzkj_loreal_shopGift_url
   - - jd_lzkj_shopGift_url
   Name: 店铺礼包（超级无线）
-  Script: SuperManito_cishanjia_main/jd_lzkj_shopGift.js
+  Script: 9Rebels_jdmax/jd_lzkj_loreal_shopGift.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -46,8 +47,8 @@ js_config:
   KeyWord:
   - - jd_opencard_venderId
   - - jd_opencard_force_venderId
-  Name: 入会礼包
-  Script: SuperManito_cishanjia_main/jd_opencard_gift.js
+  Name: 开卡入会礼包
+  Script: 9Rebels_jdmax/jd_opencard_gift.js
   TimeOut: 0
   Wait: 10
 - Container:
