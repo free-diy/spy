@@ -247,11 +247,12 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_know_url
+  Env: jd_lzkj_loreal_know_url
   KeyWord:
+  - - jd_lzkj_loreal_know_url
   - - jd_lzkj_know_url
   Name: 知识超人（超级无线）
-  Script: SuperManito_cishanjia_main/jd_lzkj_know.js
+  Script: 9Rebels_jdmax/jd_lzkj_loreal_know.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -454,7 +455,7 @@ js_config:
   KeyWord:
   - - jd_wxFansInterActionActivity_activityId
   Name: 粉丝互动（超级无线）
-  Script: SuperManito_cishanjia_main/jd_wxFansInterActionActivity.js
+  Script: 9Rebels_jdmax/jd_wxFansInterActionActivity.js
   TimeOut: 0
   Wait: 10
 - Container:
@@ -682,7 +683,7 @@ js_config:
   - - jd_wxUnPacking_wxId
   - - jd_wx_UnPacking
   Name: 让福袋飞（超级无线）
-  Script: SuperManito_cishanjia_main/jd_wxUnPackingActivity.js
+  Script: 9Rebels_jdmax/jd_wxUnPackingActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
