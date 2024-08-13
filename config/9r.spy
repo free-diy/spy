@@ -171,15 +171,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_shopLottery_activityUrl
-  KeyWord:
-  - - jd_shopLottery_activityUrl
-  Name: 店铺刮刮乐（刮一刮）
-  Script: 9Rebels_jdmax/jd_shop_lottery.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_lzkj_loreal_know_url
   KeyWord:
   - - jd_lzkj_loreal_know_url
