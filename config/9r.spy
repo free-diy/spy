@@ -648,6 +648,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_lzdz1_joinCommon_Id
+  KeyWord:
+  - - jd_lzdz1_joinCommon_Id
+  Name: 常规卡通用（环境）
+  Script: feverrun_my_scripts/jd_opencard_common.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: DPLHTY
   KeyWord:
   - - DPLHTY
