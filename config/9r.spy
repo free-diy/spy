@@ -51,6 +51,9 @@ js_config:
   Env: jd_wx_shopSign_activityUrl
   KeyWord:
   - - jd_wx_shopSign_activityUrl
+  - - jd_shopSign_activityUrl
+  - - jd_wx_sign_id
+  - - LZKJ_SIGN
   Name: 店铺签到监控（超级无线/超级会员）
   Script: 9Rebels_jdmax/jd_wx_shopSign.js
   TimeOut: 10
