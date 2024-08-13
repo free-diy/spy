@@ -612,7 +612,7 @@ js_config:
   - - jd_opencard_shopleague_id
   - - jd_lzdz1_shopLeague_Id
   - - jd_shopLeagueId
-  Name: 超店通用
+  Name: 超店会员福利社通用开卡
   Script: 9Rebels_jdmax/jd_opencard_shopleague.js
   TimeOut: 0
   Wait: 2
