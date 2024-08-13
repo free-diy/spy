@@ -60,6 +60,15 @@ js_config:
   Wait: 5
 - Container:
   - []
+  Env: jd_shopLottery_venderIds
+  KeyWord:
+  - - jd_shopLottery_venderIds
+  Name: 店铺刮刮乐（刮一刮）
+  Script: 9Rebels_jdmax/jd_shop_lottery.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_gzsl_lottery_url
   KeyWord:
   - - jd_gzsl_lottery_url
