@@ -238,9 +238,9 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_shopLottery_activityUrl
+  Env: jd_shopLottery_venderIds
   KeyWord:
-  - - jd_shopLottery_activityUrl
+  - - jd_shopLottery_venderIds
   Name: 店铺刮刮乐
   Script: SuperManito_cishanjia_main/jd_shop_lottery.js
   TimeOut: 0
