@@ -590,7 +590,7 @@ js_config:
   - []
   Env: jd_dpqd_tokens
   KeyWord:
-  - - dpqd_token
+  - - jd_dpqd_single_token
   - - jd_dpqd_tokens
   Name: 批量店铺签到
   Script: 9Rebels_jdmax/jd_dpqd_sign.js
