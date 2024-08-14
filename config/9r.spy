@@ -685,6 +685,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_shopbenefit_venderId
+  KeyWord:
+  - - jd_shopbenefit_venderId
+  Name: 店铺会员权益礼包
+  Script: feverrun_my_scripts/jd_shopbenefit.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_jingyun_partitionTeam_urls
   KeyWord:
   - - jd_jingyun_partitionTeam_urls
