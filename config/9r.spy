@@ -25,6 +25,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_lzkj_loreal_invite_url
+  KeyWord:
+  - - jd_lzkj_loreal_invite_url
+  Name: 邀请好友入会（超级无线）
+  Script: 9Rebels_jdmax/jd_lzkj_loreal_invite.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_opencard_venderId
   KeyWord:
   - - jd_opencard_venderId
