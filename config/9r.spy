@@ -25,6 +25,17 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_lzkj_loreal_share_url
+  KeyWord:
+  - - jd_lzkj_loreal_share_url
+  - - jd_loreal_lzkj_sharePolitely_id
+  - - jd_lz_share
+  Name: 分享有礼（超级无线）
+  Script: 9Rebels_jdmax/jd_lzkj_loreal_share.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_lzkj_loreal_invite_url
   KeyWord:
   - - jd_lzkj_loreal_invite_url
