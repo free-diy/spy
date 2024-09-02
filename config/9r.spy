@@ -758,3 +758,12 @@ js_config:
   Script: feverrun_my_scripts/jd_jingyun_daily.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_gzsl_sevenSign_urls
+  KeyWord:
+  - - jd_gzsl_sevenSign_urls
+  Name: gzsl 七日签到
+  Script: feverrun_my_scripts/jd_gzsl_sevenSign.js
+  TimeOut: 0
+  Wait: 2
