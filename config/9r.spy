@@ -482,6 +482,16 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_lzkj_v2_cart_url
+  KeyWord:
+  - - jd_lzkj_v2_cart_url
+  - - jd_lzkj_v2_cart_urls
+  Name: 加购有礼（超级无线V2）
+  Script: 9Rebels_jdmax/jd_lzkj_v2_cart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_lzkj_loreal_followGoods_url
   KeyWord:
   - - jd_lzkj_loreal_followGoods_url
