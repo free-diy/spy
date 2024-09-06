@@ -45,6 +45,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_wx_zeroTrial_url
+  KeyWord:
+  - - jd_wx_zeroTrial_url
+  Name: 0元试用（超级会员）
+  Script: 9Rebels_jdmax/jd_wx_zeroTrial.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jd_opencard_venderId
   KeyWord:
   - - jd_opencard_venderId
