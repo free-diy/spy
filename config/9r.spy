@@ -101,6 +101,7 @@ js_config:
   Env: jd_gzsl_lottery_url
   KeyWord:
   - - jd_gzsl_lottery_url
+  - - jd_gzsl_lottery_urls
   Name: gzsl-幸运抽奖
   Script: 9Rebels_jdmax/jd_gzsl_lottery.js
   TimeOut: 0
