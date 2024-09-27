@@ -777,3 +777,12 @@ js_config:
   Script: feverrun_my_scripts/jd_gzsl_sevenSign.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_szxyun_activeId
+  KeyWord:
+  - - jd_szxyun_activeId
+  Name: szxyun联合开卡通用
+  Script: feverrun_my_scripts/jd_opencard_szxyun.js
+  TimeOut: 0
+  Wait: 2
