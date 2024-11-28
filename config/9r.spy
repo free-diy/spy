@@ -273,7 +273,7 @@ js_config:
   Env: jd_jinggeng_drawOne_url
   KeyWord:
   - - jd_jinggeng_drawOne_url
-  - - jd_jinggeng_showDrawOne_activityUrl
+  - - jd_jinggeng_draw_urls
   Name: 积分抽奖（京耕）
   Script: 9Rebels_jdmax/jd_jinggeng_drawOne.js
   TimeOut: 0
