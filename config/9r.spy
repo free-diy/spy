@@ -302,7 +302,7 @@ js_config:
   - []
   Env: jd_jinggeng_sign_url
   KeyWord:
-  - - jd_jinggeng_showSign_activityUrl
+  - - jd_jinggeng_showSign_urls
   - - jd_jinggeng_sign_url
   Name: 店铺签到（京耕）
   Script: 9Rebels_jdmax/jd_jinggeng_sign.js
