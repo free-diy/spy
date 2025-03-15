@@ -1,0 +1,38 @@
+js_config:
+- Container:
+  - []
+  Env: jd_live_ids
+  KeyWord:
+  - - jd_live_ids
+  - - jd_liveLottery_ids
+  Name: 直播抽奖
+  Script: feverrun_my_scripts/jd_live_lottery.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzdz1_joinCommon_Id
+  KeyWord:
+  - - jd_lzdz1_joinCommon_Id
+  Name: 常规卡通用（环境）
+  Script: feverrun_my_scripts/jd_opencard_common.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: DPLHTY
+  KeyWord:
+  - - DPLHTY
+  Name: 大牌联合通用
+  Script: feverrun_my_scripts/jd_opencardDPLHTY.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_szxyun_activeId
+  KeyWord:
+  - - jd_szxyun_activeId
+  Name: szxyun联合开卡通用
+  Script: feverrun_my_scripts/jd_opencard_szxyun.js
+  TimeOut: 0
+  Wait: 2
